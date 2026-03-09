@@ -1,0 +1,47 @@
+Olhar novamente o padrão REACT para prompt.
+
+Descrição do padrão ReAct:
+ReAct (Reason + Act) combina raciocínio explícito com ações interativas. O modelo alterna entre pensar e agir, usando observações para ajustar o raciocínio até obter a resposta final.
+
+Formato básico:
+- Thought: raciocínio sobre o próximo passo.
+- Action: ação executável (ex.: chamar ferramenta, buscar dados).
+- Observation: resultado da ação.
+- (repete Thought/Action/Observation quantas vezes necessário)
+- Final Answer: resposta direta e concisa.
+
+Boas práticas:
+- Mantenha o `Thought:` sucinto e orientado à ação.
+- Descreva o `Action:` de forma executável (ex.: Search("query"), CallAPI(...)).
+- Registre a `Observation:` exatamente como a ferramenta retornou.
+- Termine com `Final Answer:` contendo apenas a resposta final.
+
+Exemplo curto:
+Thought: Preciso confirmar a capital da França e sua população.
+Action: Search("capital da França população")
+Observation: "Paris — cidade: ~2,1 milhões; área metropolitana: ~12 milhões."
+Thought: Informação obtida; suficiente para resposta direta.
+Final Answer: A capital da França é Paris; população da cidade ~2,1 milhões.
+ 
+Padrão Least-to-Most:
+Least-to-Most (do mais simples ao mais complexo) é um padrão de prompt para decompor um problema em sub-tarefas ordenadas, resolvendo primeiro as partes mais fáceis e usando suas respostas para orientar etapas subsequentes até a solução final.
+
+Formato básico:
+- Liste sub-tarefas em ordem crescente de complexidade.
+- Para cada sub-tarefa: execute raciocínio e resolução (ex.: Thought/Action/Answer).
+- Integre as respostas parciais para produzir a `Final Answer`.
+
+Objetivo: reduzir saltos lógicos e facilitar raciocínio em problemas compostos, melhorando precisão e interpretabilidade.
+
+Boas práticas:
+- Decomponha o problema em sub-tarefas claras e independentes.
+- Resolva cada sub-tarefa completamente antes de prosseguir.
+- Use rótulos numéricos para rastrear progresso e facilitar validação.
+
+Exemplo curto:
+Problem: Calcular média ponderada das notas 7 (peso 2), 8 (peso 3) e 9 (peso 5).
+Step 1: Calcular produto nota*peso para cada nota: 7*2=14; 8*3=24; 9*5=45.
+Step 2: Somar produtos (14+24+45=83) e somar pesos (2+3+5=10).
+Step 3: Dividir soma dos produtos pela soma dos pesos: 83/10 = 8,3.
+Final Answer: A média ponderada é 8,3.
+

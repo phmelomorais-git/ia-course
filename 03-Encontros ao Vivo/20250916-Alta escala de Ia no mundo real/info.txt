@@ -1,0 +1,11 @@
+The builder compass <-- Blog do apresentador
+Criar comando para gerar commits
+Criar comando para criar para
+Criar commando para gerar assunto de daily
+
+
+claude code actions que usa o sdk do claude
+
+Lang fuse observabilidade/gestão de prompt/evaluation/llm as a judge
+langsmith mais barato.
+

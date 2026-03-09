@@ -7,3 +7,9 @@ https://devfullcycle.notion.site/Engineering-Guidelines-2bb1423c0388801394a4ce5d
 https://devfullcycle.notion.site/Classifica-o-geral-de-documentos-2a11423c03888054bbd6d13301d827ba
 
 https://github.com/devfullcycle/claude-mkt-place/tree/main
+
+
+
+
+
+https://devfullcycle.notion.site/Design-Docs-29e1423c038880b994c5cbdce55f3a93
