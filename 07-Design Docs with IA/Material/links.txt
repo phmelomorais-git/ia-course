@@ -10,6 +10,6 @@ https://github.com/devfullcycle/claude-mkt-place/tree/main
 
 
 
-
+Design Docs:
 
 https://devfullcycle.notion.site/Design-Docs-29e1423c038880b994c5cbdce55f3a93
