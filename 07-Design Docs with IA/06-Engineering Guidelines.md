@@ -57,7 +57,7 @@ Elas não definem apenas estilo, mas sim "como desenvolvemos software aqui".
 
 
 ## Project Stack
-![alt text](image-23.png)
+![alt text](reference/image-23.png)
 
 
 ## Exemplo de documento
@@ -69,7 +69,7 @@ https://devfullcycle.notion.site/Exemplo-de-Software-Development-Guidelines-2bb1
 
 ## Mindmap
 https://www.mindmeister.com/app/map/3863580263?t=7cHe2Hud6K
-![alt text](image-24.png)
+![alt text](reference/image-24.png)
 
 ## Classificação geral
 https://devfullcycle.notion.site/Classifica-o-geral-de-documentos-2a11423c03888054bbd6d13301d827ba

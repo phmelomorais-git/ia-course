@@ -83,7 +83,7 @@ Links para PRDs, HLDs, FDDs, RFCs e ADRs relacionados.
 
 
 Fonte:
-![alt text](image-18.png)
+![alt text](reference/image-18.png)
 
 
 ## Status / Metadata / Boas Praticas
@@ -179,12 +179,12 @@ Crie um ADR quando a decisão for:
 
 ## Agente de mapeamento na prática.
 
-![alt text](image-19.png)
-![alt text](image-20.png)
+![alt text](reference/image-19.png)
+![alt text](reference/image-20.png)
 
 
 ## Criando potenciais ADRs
-![alt text](image-21.png)
+![alt text](reference/image-21.png)
 
 ## Gerando ADR
-![alt text](image-22.png)
+![alt text](reference/image-22.png)

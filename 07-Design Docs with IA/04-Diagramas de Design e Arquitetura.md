@@ -30,7 +30,7 @@ Responde perguntas do tipo:
 
 É um modelo para representar a arquitetura em diferentes níveis de detalhe. Ele organiza a visualização de como o sistema se relaciona com usuários e sistemas externos, quais containers o compõem, como cada parte interna é estruturada e, se necessário, como o código está organizado. Essa estrutura também facilita para agentes de IA entenderem o contexto do sistema, permitindo análise, refatoração e geração de artefatos técnicos com mais precisão.
 
-![alt text](image-1.png)
+![alt text](reference/image-1.png)
 
 
 
@@ -40,7 +40,7 @@ Responde perguntas do tipo:
 - Identifica usuários, consumidores e integrações externas
 - Bom para alinhamento entre diferentes times como: desenvolvimento, produto, segurança, etc.
 
-![alt text](image-2.png)
+![alt text](reference/image-2.png)
 
 
 ## C2: Container (arquitetura geral)
@@ -49,7 +49,7 @@ Responde perguntas do tipo:
 - Evidencia como esses blocos se comunicam e em quais protocolos
 - Ajuda em decisões de infraestrutura, escalabilidade e deploy
 
-![alt text](image-3.png)
+![alt text](reference/image-3.png)
 
 
 ## C3: Component (estrutura interna)
@@ -58,7 +58,7 @@ Responde perguntas do tipo:
 - Deixa claro onde estão as responsabilidades
 - Auxilia devs a manterem coesão e reduzirem acoplamento
 
-![alt text](image-5.png)
+![alt text](reference/image-5.png)
 
 
 ## C4: Code (detalhe técnico - código)
@@ -70,14 +70,14 @@ Responde perguntas do tipo:
 
 
 ## Prompts e Agentes - Implementação com Plant UML
-![alt text](image-6.png)
-![alt text](image-7.png)
+![alt text](reference/image-6.png)
+![alt text](reference/image-7.png)
 
 
 ## Gerando diagrama C4
-![alt text](image-8.png)
-![alt text](image-9.png)
-![alt text](image-10.png)
+![alt text](reference/image-8.png)
+![alt text](reference/image-9.png)
+![alt text](reference/image-10.png)
 
 *???
 Criar Hooks para verificar o FDD após uma mudança de código.
@@ -94,7 +94,7 @@ Mermaid é uma linguagem de marcação que transforma texto em diagramas. Ela pe
 - Ideal para mostrar lógica de processos e pipelines
 - Útil em documentações de sistemas, APIs e automações
 
-![alt text](image-11.png)
+![alt text](reference/image-11.png)
 
 
 
@@ -104,7 +104,7 @@ Mermaid é uma linguagem de marcação que transforma texto em diagramas. Ela pe
 - Excelente para visualizar chamadas entre serviços, APIs e bancos de dados
 - Ajuda a identificar dependências e gargalos de comunicação
 
-![alt text](image-12.png)
+![alt text](reference/image-12.png)
 
 
 ## Class Diagram (Diagrama de Classe)
@@ -113,7 +113,7 @@ Mermaid é uma linguagem de marcação que transforma texto em diagramas. Ela pe
 - Mostra atributos, métodos e heranças
 - Bom para explicar a estrutura interna do código e o design do domínio
 
-![alt text](image-13.png)
+![alt text](reference/image-13.png)
 
 
 
@@ -122,7 +122,7 @@ Mermaid é uma linguagem de marcação que transforma texto em diagramas. Ela pe
 - Exibe classes, structs e seus relacionamentos
 - Mostra atributos, métodos e heranças
 - Bom para explicar a estrutura interna do código e o design do domínio
-![alt text](image-14.png)
+![alt text](reference/image-14.png)
 
 
 
@@ -131,14 +131,14 @@ Mermaid é uma linguagem de marcação que transforma texto em diagramas. Ela pe
 - Mostra os estados possíveis de um sistema e suas transições
 - Indicado para workflows, automações e máquinas de estado
 - Ajuda a entender como o sistema reage a diferentes eventos e condições
-![alt text](image-16.png)
+![alt text](reference/image-16.png)
 
 
 ## PlayGround
-![alt text](image-15.png)
+![alt text](reference/image-15.png)
 
 
 ## Gerando Diagramas Mermaid com IA
-![alt text](image-17.png)
+![alt text](reference/image-17.png)
 
 ## Acesso aos Prompts
