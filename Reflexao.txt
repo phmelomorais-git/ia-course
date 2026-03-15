@@ -17,3 +17,5 @@ Por isso precisamos documentar e criar um mecanismo que tenha a capacidade de do
 https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/plugins-finding-installing#install-directly-from-an-online-git-repository
 
 
+O cara do produto ta no desenvolvimento?
+
