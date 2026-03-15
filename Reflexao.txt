@@ -10,3 +10,10 @@ Estudamos todas essas documentações para não precisar descobrir, errar novame
 Hoje tudo muda muito rápido, tudo que vemos na TV, internet, tudo que estudamos de tecnologia vira história cada vez mais rápido.
 Por isso precisamos documentar e criar um mecanismo que tenha a capacidade de documentar as coisas na velocidade que elas mudam.
 
+
+
+
+
+https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/plugins-finding-installing#install-directly-from-an-online-git-repository
+
+
